@@ -8,7 +8,7 @@ import './Add.css'
 const Add = () => {
     const { register, handleSubmit,reset } = useForm();
   const onSubmit = data => {
-    axios.post('http://localhost:5000/Packages',data)
+    axios.post('https://dreadful-skull-47597.herokuapp.com/Packages',data)
     .then(res => {
         if(res.data.insertedId){
             alert('Successfully your data load')

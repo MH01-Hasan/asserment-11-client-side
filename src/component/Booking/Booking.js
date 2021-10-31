@@ -13,7 +13,7 @@ const Booking = () => {
     const[data ,setData]=useState({})
     
     useEffect(()=>{
-        fetch(`http://localhost:5000/packages/${id}`)
+        fetch(`https://dreadful-skull-47597.herokuapp.com/packages/${id}`)
         .then(res => res.json())
         .then(data => setData(data))
     },[])
@@ -21,7 +21,7 @@ const Booking = () => {
     const { register, handleSubmit,reset } = useForm();
     //order post api//
   const onSubmit = data => {
-    axios.post('http://localhost:5000/order',data)
+    axios.post('https://dreadful-skull-47597.herokuapp.com/order',data)
     .then(res => {
         if(res.data.insertedId){
             alert('Successfully Boking')

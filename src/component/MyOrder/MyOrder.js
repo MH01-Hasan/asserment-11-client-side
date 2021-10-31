@@ -8,7 +8,7 @@ const MyOrder = () => {
 
     const [orders, setOrders] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/myOrder/${user?.email}`)
+    fetch(`https://dreadful-skull-47597.herokuapp.com/myOrder/${user?.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [user.email]);
@@ -19,7 +19,7 @@ const MyOrder = () => {
 const handeldelet =(id)=>{
     const prosid = window.confirm('are you sure delete')
    if(prosid){
-       const url =`http://localhost:5000/myOrder/${id}`
+       const url =`https://dreadful-skull-47597.herokuapp.com/myOrder/${id}`
     fetch(url,{
         method:"DELETE"
     })

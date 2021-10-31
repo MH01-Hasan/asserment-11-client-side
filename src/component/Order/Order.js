@@ -7,7 +7,7 @@ import './Order.css'
 const Order = () => {
    const[bookings ,setBooking]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/order')
+        fetch('https://dreadful-skull-47597.herokuapp.com/order')
         .then(res => res.json())
         .then(data => setBooking(data))
     },[])
@@ -15,7 +15,7 @@ const Order = () => {
     const handeldelet =(id)=>{
       const prosid = window.confirm('are you sure delete')
      if(prosid){
-         const url =`http://localhost:5000/order/${id}`
+         const url =`https://dreadful-skull-47597.herokuapp.com/order/${id}`
       fetch(url,{
           method:"DELETE"
       })
