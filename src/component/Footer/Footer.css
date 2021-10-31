@@ -1,0 +1,40 @@
+.logo{
+    width: 200px;
+  
+    
+}
+
+.footer-fild{
+    background-color: #212121;
+    color: whitesmoke;
+}
+
+.icon{
+    color: #ffffff;
+    font-size: 21px;
+    padding: 7px;
+    margin-right: 6px;
+}
+
+ .contact ul li{
+     list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: monospace;
+    }
+
+.logo-fild{
+    margin-bottom: 44px;
+ }
+
+.powwered{
+ text-align: center;
+ margin: 30px 0px;
+ color: #e3e3e394;
+}
+
+.btn-SUBSCRIBE:hover{
+    background-color: #e9085b;
+    
+
+}

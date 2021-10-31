@@ -1,0 +1,19 @@
+.contact-fild{
+    background-color: #707e7e;
+    padding: 5px 10px;
+}
+
+
+.contact,h2{
+    text-align: center;
+    color: white;
+    font-family: fangsong;
+}
+
+.chaild{
+    color: #212121;
+    text-align: center;
+    font-family: monospace;
+    padding: 0px;
+    margin: 11px;
+}

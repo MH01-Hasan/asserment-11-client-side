@@ -1,0 +1,21 @@
+.all-order{
+    
+    background-color: #60dfe59e;
+
+
+}
+
+.Manage{
+    color: #e004fb;
+    margin: 13px;
+    font-size: 32px;
+    font-family: math;
+}
+
+
+.btn-button{
+    color: white;
+    background-color: #ea08f9a3;
+    border-radius: 5px;
+    padding: 3px 8px;
+}

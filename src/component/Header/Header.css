@@ -1,0 +1,26 @@
+.image{
+    width: 200px;
+}
+
+.header-color{
+    background-color: #657be05c;
+}
+
+.logout{
+    background-color: #ef0808;
+    padding: 8px 13px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border: navajowhite;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+small{
+    color: #e410fd;
+    font-size: 20px;
+    font-family: -webkit-body;
+    margin-left: 10px;
+    font-weight: bolder;
+}

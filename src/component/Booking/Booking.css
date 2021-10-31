@@ -1,0 +1,33 @@
+.input-fil{
+
+    border: 1px solid gray;
+    border-radius: 10px;
+   
+}
+
+
+
+.input-fil input{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 7px;
+    
+}
+
+.paragraph{
+    color: blueviolet;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-family: auto;
+    margin-top: 15px;
+}
+
+.submit{
+    font-weight: bold;
+    color: #212121;
+    background-color: cadetblue;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: ui-sans-serif;
+    margin-top: 5px;
+}
