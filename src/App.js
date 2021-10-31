@@ -16,6 +16,7 @@ import PrivateRoute from './component/Login/PrivetRoute/PrivetRoute';
 import Booking from './component/Booking/Booking';
 import Order from './component/Order/Order';
 import MyOrder from './component/MyOrder/MyOrder';
+import Error from './component/Error/Error';
 
 
 function App() {
@@ -31,15 +32,19 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
+
           <Route path='/packages'>
            <Packages></Packages>
           </Route>
+
           <Route path='/add'>
             <Add></Add>
           </Route>
+
           <Route path='/order'>
             <Order></Order>
           </Route>
+
           <Route path='/myorder'>
            <MyOrder></MyOrder>
           </Route>
@@ -47,9 +52,15 @@ function App() {
           <Route path='/login'>
             <Login></Login>  
           </Route>
+
           <PrivateRoute path='/booking/:id'>
            <Booking></Booking> 
           </PrivateRoute>
+
+          <Route path='*'>
+            <Error></Error>
+          </Route>
+
         </Switch>
        
       </Router>
